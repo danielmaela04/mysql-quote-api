@@ -1,0 +1,21 @@
+POST http://localhost:3203/quotes 
+Content-Type: application/json
+
+{
+    "quote": "Ás vezes a gente só precisa de um tempo, pra respirar e colocar no lugar nossas certezas.",
+    "author": "Wendy Souza"
+}
+
+###
+GET http://localhost:3203/all
+
+###
+DELETE http://localhost:3203/all/6a4a2956-671f-444d-bb97-6448e8e1ed07
+
+###
+# PUT http://localhost:3203/all/6a4a2956-671f-444d-bb97-6448e8e1ed07
+
+# {
+#     "quote": "sdsd",
+#     "author": "dsdsd",
+# }
